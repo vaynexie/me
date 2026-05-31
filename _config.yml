@@ -1,7 +1,7 @@
 # Site settings for Weiyan Xie's academic homepage
 title: Weiyan Xie
 url: "https://vaynexie.github.io"
-baseurl: "/cv-homepage"
+baseurl: "/me"
 
 # Build settings
 markdown: kramdown
