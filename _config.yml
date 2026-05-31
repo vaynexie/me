@@ -1,0 +1,35 @@
+# Site settings for Weiyan Xie's academic homepage
+title: Weiyan Xie
+url: "https://vaynexie.github.io"
+baseurl: ""
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-email-protect
+
+collections:
+  - publications
+  - news
+  - showcase
+  - posts
+
+exclude:
+  - legacy
+  - weiyan
+  - .venv
+  - generate_cv_docx.py
+  - generate_publications.py
+  - cv_content.json
+  - memo.rtf
+  - HOMEPAGE_README.md
+  - research_cv_updated.docx
+  - research_cv_updated.pdf
+  - "Weiyan Xie CV_2025.doc"
+  - "Weiyan Xie CV_2025.pdf"
+  - Weiyan_thesisabstract_listofpublication.docx
+  - Weiyan_thesisabstract_listofpublication.pages
+  - Weiyan_thesisabstract_listofpublication.pdf
+  - blog.html
+  - showcase.html
+  - index_layout2.html

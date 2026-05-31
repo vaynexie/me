@@ -1,0 +1,67 @@
+primary_name: "Weiyan Xie"
+secondary_name: "Vayne"
+navbar_name: "Weiyan Xie"
+
+positions:
+  - name: Ph.D. candidate, Dept. of Computer Science & Engineering
+  - name: Hong Kong University of Science and Technology (HKUST)
+
+email: "wxieai@cse.ust.hk"
+gscholar: "_kc1e7EAAAAJ"
+github: vaynexie
+
+short_bio_text_justify: true
+short_bio: >-
+  <p>
+  <span class="open-to-work-highlight">I plan to graduate in Oct. 2026 and am actively open to discussing industry opportunities
+  in multimodal AI, agentic systems,
+  and LLM/MLLM training and inference.</span>
+  </p>
+  <p>
+  I am a Ph.D. candidate in the Dept. of Computer Science & Engineering at HKUST, advised by
+  <a href="https://www.cse.ust.hk/faculty/lzhang/" target="_blank">Prof. Nevin L. Zhang</a>,
+  and a recipient of the Huawei PhD Fellowship (HKUST).
+  </p>
+  <p>
+  My research focuses on the real-world application of deep vision and vision-language models,
+  with emphasis on explainability, generalization, MLLM-based agentic visual perception for long-document
+  understanding, and controllability in image editing.
+  </p>
+  <p>
+  In general, I aim to develop diagnostic tools to understand what models currently depend on, and targeted
+  mechanisms to guide them toward causally relevant, trustworthy, and efficient behavior.
+  </p>
+
+education:
+  - name: Hong Kong University of Science and Technology
+    position: Ph.D. in Computer Science
+    date: Sep. 2022 - Oct. 2026
+  - name: Hong Kong University of Science and Technology
+    position: M.Sc. in Big Data Technology (CGPA 4.11/4.3, Rank 5/120)
+    date: Sep. 2019 - Dec. 2020
+  - name: Hong Kong Baptist University (HKBU)
+    position: B.S. in Statistics (CGPA 3.51/4.0, Rank 3/70)
+    date: Sep. 2015 - Jun. 2019
+
+teaching:
+  - role: "Teaching Assistant, Postgraduate Machine Learning (MSBD5012 / CSIT5910 / COMP5212)"
+    terms: "2022 Fall, 2023 Spring, 2023 Fall, 2024 Fall, 2025 Fall"
+  - role: "Teaching Assistant, COMP2011 Programming with C++ (UG core course)"
+    terms: "2024 Spring"
+
+service:
+  - role: "Conference reviewer / PC member"
+    items:
+      - "NeurIPS (2023–2026)"
+      - "ICML (2023–2026)"
+      - "ICLR (2024–2026)"
+      - "UAI (2024–2026)"
+      - "AAAI (2025–2026)"
+
+awards:
+  - name: Huawei PhD Fellowship (HKUST)
+    date: "2022–2026"
+  - name: MSc Big Data Technology Top Students Award (HKUST)
+    date: "2020"
+  - name: School of Engineering Excellent Student Scholarship (HKUST)
+    date: "2020"

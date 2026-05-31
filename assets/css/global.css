@@ -1,0 +1,153 @@
+@charset "utf-8";
+body {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    padding-top: 5.0rem;
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+    font-weight: 700;
+}
+
+.card {
+    border-radius: 0.8rem!important;
+}
+
+.card-img-overlay {
+    border-radius: 0.8rem!important;
+}
+
+.rounded-xl {
+    border-radius: 0.8rem!important;
+}
+
+.rounded-xl-bottom {
+    border-bottom-right-radius: 0.8rem !important;
+    border-bottom-left-radius: 0.8rem !important;
+}
+
+.rounded-xl-top {
+    border-top-left-radius: 0.8rem !important;
+    border-top-right-radius: 0.8rem !important;
+}
+
+
+.text-profile-position {
+    font-weight: 400;
+}
+
+.text-profile-bio {
+    /* font-family: "Raleway"; */
+    font-weight: 400;
+}
+
+.navbar {
+    background-color: rgba(255, 255, 255, 0.6) !important;
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+}
+
+.inline-badge {
+    height: 16px;
+    vertical-align: -10%;
+    margin-right: 2px;
+    line-break: unset;
+}
+
+.no-break {
+    white-space: nowrap;
+}
+
+.cover-image {
+    width: 180px;
+    max-height: 120px;
+}
+
+.abstract-body {
+    min-height: 100px;
+}
+
+img.lazy {
+    background-image: url('images/loading.gif');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 50px 50px;
+    min-height: 80px;
+}
+
+div.lazy {
+    background-image: url('images/loading.gif');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 50px 50px;
+    min-height: 80px;
+}
+
+.badge-publication {
+    font-size: 100%;
+}
+
+.email-text {
+    font-family: Source Code Pro, monospace;
+}
+
+/* Custom polish for Weiyan Xie's homepage */
+.card h5.font-weight-bold {
+    color: #1f2937;
+}
+
+.text-profile-bio p:last-child {
+    margin-bottom: 0;
+}
+
+.research-theme-divider {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+    padding-bottom: 1rem;
+}
+
+.navbar-brand strong {
+    letter-spacing: -0.02em;
+}
+
+.open-to-work-highlight {
+    display: inline-block;
+    font-family: "Fira Sans", "Lato", sans-serif;
+    font-weight: 600;
+    font-size: 1.02rem;
+    line-height: 1.55;
+    padding: 0.2rem 0.45rem;
+    border-left: 3px solid rgba(14, 116, 144, 0.8);
+    background: rgba(14, 116, 144, 0.08);
+    border-radius: 0.25rem;
+}
+
+.research-theme-block {
+    border: 1px solid rgba(0, 0, 0, 0.07);
+    border-radius: 0.7rem;
+    padding: 0.9rem 1rem 0.7rem;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.94), rgba(247, 250, 252, 0.94));
+}
+
+.theme-chip {
+    display: inline-block;
+    font-size: 0.68rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    color: #475569;
+    background: #e2e8f0;
+    border-radius: 999px;
+    padding: 0.18rem 0.45rem;
+    text-transform: uppercase;
+}
+
+.research-work-item {
+    border-left: 2px solid rgba(2, 132, 199, 0.32);
+    padding-left: 0.7rem;
+}
+
+@media (min-width: 768px) {
+    .sticky-top {
+        top: 88px;
+    }
+}

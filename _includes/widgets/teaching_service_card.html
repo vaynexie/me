@@ -1,0 +1,32 @@
+<div class="row mt-3">
+    <div class="col-lg-6">
+        <div class="card border-0 shadow-sm bg-white h-100">
+            <div class="card-body p-4">
+                <div class="h5 mb-3">Teaching Experience</div>
+                <ul class="list-unstyled mb-0">
+                    {% for item in site.data.profile.teaching %}
+                    <li class="mb-3">
+                        <div class="font-weight-bold small">{{ item.role }}</div>
+                        <div class="small text-muted">{{ item.terms }}</div>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-6 mt-3 mt-lg-0">
+        <div class="card border-0 shadow-sm bg-white h-100">
+            <div class="card-body p-4">
+                <div class="h5 mb-3">Professional Service</div>
+                {% for block in site.data.profile.service %}
+                <div class="small font-weight-bold mb-2">{{ block.role }}</div>
+                <ul class="small pl-3 mb-0">
+                    {% for entry in block.items %}
+                    <li>{{ entry }}</li>
+                    {% endfor %}
+                </ul>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>
