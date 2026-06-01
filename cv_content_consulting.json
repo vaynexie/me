@@ -1,0 +1,101 @@
+{
+  "name": "Weiyan Xie",
+  "preferred_name": "Vayne",
+  "email": "wxieai@connect.ust.hk",
+  "phone": "+852 93643921/+86 19896595201",
+  "wechat_id": "Vayne_genius",
+  "website": "https://vaynexie.github.io/me/",
+  "title": "Ph.D. Candidate, Computer Science and Engineering",
+  "affiliation": "HKUST",
+  "summary": "AI researcher and builder focused on translating frontier multimodal methods into practical solutions. I enjoy turning ambiguous problems into structured plans, aligning technical and non-technical stakeholders, and delivering explainable, robust, and efficient systems for real-world use.",
+  "strengths": [
+    "Independent problem solving from zero to publication: in most Ph.D. projects, I initiated the idea, designed the approach, ran experiments, and drove the work to a publishable outcome.",
+    "Research execution with coordination: while owning the core pipeline end-to-end, I coordinated efficiently with co-authors to align on framing, evidence quality, and final delivery.",
+    "Fast learner in new domains: I quickly absorb unfamiliar methods, tools, and application contexts, then convert them into practical plans and results.",
+    "Clear communication with technical and non-technical audiences: I explain trade-offs in plain language and use structured narratives to support decisions.",
+    "Leadership under ambiguity: led multi-team volunteer initiatives with measurable social impact and sustained execution."
+  ],
+  "experience": [
+    {
+      "period": "2025-2026",
+      "title": "Research Intern",
+      "organization": "Huawei Hong Kong AI Framework & Data Technologies Lab",
+      "bullets": [
+        "Developed and evaluated practical MLLM/vision solutions with emphasis on deployment constraints, inference efficiency, and reliability.",
+        "Collaborated with researchers and engineers to translate research ideas into reproducible prototypes and measurable improvements."
+      ]
+    },
+    {
+      "period": "2017-2019",
+      "title": "Project Leader, Working Group on Primary Student Financial Assistance",
+      "organization": "United Innovation Charity Club (UICC), BNBU",
+      "bullets": [
+        "Led outreach and fundraising for children of migrant-worker families with financial hardship.",
+        "Raised RMB 40,000+ over two years and supported tuition and living expenses for 24 students.",
+        "Coordinated volunteers, partner communication, and transparent fund allocation."
+      ]
+    },
+    {
+      "period": "2018-2019",
+      "title": "Vice President",
+      "organization": "United Innovation Charity Club (UICC), BNBU (largest student club on campus)",
+      "bullets": [
+        "Oversaw 7 charity project groups across migrant-worker children support, environmental protection, and traditional village culture preservation.",
+        "Coordinated approximately 300 volunteers and improved cross-team planning and communication cadence."
+      ]
+    }
+  ],
+  "research_impact": [
+    {
+      "theme": "Effective MLLM reasoning for long documents",
+      "focus": "Bridge the gap between static benchmark-style pipelines and real document workflows where evidence is sparse, distributed, and high-resolution.",
+      "contribution": "Framed a deployable strategy for iterative evidence gathering so systems can reason more reliably on long, visually complex documents with better efficiency."
+    },
+    {
+      "theme": "Controllable image editing for practical workflows",
+      "focus": "Turn image editing models into usable tools for creators who need precise structure control without expensive retraining cycles.",
+      "contribution": "Designed a practical control workflow that improves edit predictability and user intent alignment while keeping deployment cost low."
+    },
+    {
+      "theme": "Explainability for trustworthy model decisions",
+      "focus": "Diagnose what visual evidence models truly rely on and reduce spurious, non-causal behavior.",
+      "contribution": "Developed interpretable analysis workflows to make model reasoning auditable and actionable for real-world validation and debugging."
+    },
+    {
+      "theme": "Generalization and robustness in real-world shift",
+      "focus": "Improve model stability after fine-tuning and under distribution shift.",
+      "contribution": "Built training/evaluation strategies that improve reliability when models move from curated settings to noisy, shifted real data."
+    }
+  ],
+  "selected_publications": [
+    "InSight-doc: Agentic Visual Perception for Long-Document Understanding. In submission, 2026. * Equal contribution (alphabetical order).",
+    "CannyEdit: Selective Canny Control and Dual-Prompt Guidance for Training-Free Image Editing. IEEE CAI, 2026.",
+    "Dual Risk Minimization: Towards Next-Level Robustness in Fine-Tuning Zero-Shot Models. NeurIPS, 2024. * Equal contribution (alphabetical order).",
+    "Consistency Regularization for Domain Generalization with Logit Attribution Matching. UAI, 2024. * Equal contribution (alphabetical order).",
+    "ViT-CX: Causal Explanation of Vision Transformers. IJCAI, 2023."
+  ],
+  "education": [
+    "Ph.D. in Computer Science and Engineering, Hong Kong University of Science and Technology, 2022.09-2026.10 (expected).",
+    "M.Sc. in Big Data Technology, Hong Kong University of Science and Technology, 2019.09-2020.12.",
+    "B.S. in Statistics, Beijing Normal-Hong Kong Baptist University, 2015.09-2019.06."
+  ],
+  "teaching": [
+    "Teaching Assistant, Postgraduate Machine Learning (MSBD5012 / CSIT5910 / COMP5212): 2022 Fall, 2023 Spring, 2023 Fall, 2024 Fall, 2025 Fall.",
+    "Teaching Assistant, COMP2011 Programming with C++: 2024 Spring.",
+    "Co-supervised 15+ Master's independent projects; most students received A-level grades."
+  ],
+  "service": [
+    "Conference reviewer / PC member: NeurIPS, ICML, ICLR, UAI, AAAI."
+  ],
+  "awards": [
+    "Huawei PhD Fellowship (HKUST), 2022-2026.",
+    "MSc Big Data Technology Top Students Award (HKUST), 2020.",
+    "School of Engineering Excellent Student Scholarship (HKUST), 2020."
+  ],
+  "skills": [
+    "Applied AI: multimodal LLMs, vision-language systems, model evaluation, inference optimization.",
+    "Methods: explainability, robustness, domain generalization, controllable generation/editing.",
+    "Engineering: Python, PyTorch, Hugging Face, vLLM, Docker, Git.",
+    "Collaboration: stakeholder communication, project leadership, mentoring."
+  ]
+}
